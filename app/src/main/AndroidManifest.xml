@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.swathi.tourbot1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Screen2" />
+        <activity android:name=".Screen3" />
+        <activity android:name=".Screen4" />
+        <activity android:name=".Screen5" />
+        <activity android:name=".Screen6" />
+        <activity android:name=".Screen7" />
+        <activity android:name=".Screen8" />
+        <activity android:name=".Screen9" />
+        <activity android:name=".DropTowerScreen" />
+        <activity android:name=".DropTower_ResumeScreen" />
+        <activity android:name=".Student_Srvcs_Resume_Screen" />
+        <activity android:name=".NewDropTower"></activity>
+    </application>
+
+</manifest>
