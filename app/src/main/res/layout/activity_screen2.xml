@@ -45,7 +45,7 @@
         android:layout_height="75dp"
         android:text="Take a tour"
         android:background="#008000"
-        android:id="@+id/button_take_tour"
+        android:id="@+id/button_take_tour_new_screen2"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_below="@+id/textView3"
@@ -60,9 +60,9 @@
         android:textSize="20dp"
         android:background="#1E90FF"
         android:textStyle="bold"
-        android:layout_below="@+id/button_take_tour"
-        android:layout_alignLeft="@+id/button_take_tour"
-        android:layout_alignStart="@+id/button_take_tour"
+        android:layout_below="@+id/button_take_tour_new_screen2"
+        android:layout_alignLeft="@+id/button_take_tour_new_screen2"
+        android:layout_alignStart="@+id/button_take_tour_new_screen2"
         android:layout_marginTop="48dp" />
 
     <Button

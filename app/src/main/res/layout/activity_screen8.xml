@@ -7,39 +7,172 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.swathi.tourbot1.Screen8">
+    tools:context="com.example.swathi.tourbot1.Screen8"
+    android:weightSum="1">
 
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="FAQs:"
+        android:text="FAQs"
+        android:textStyle="bold"
         android:id="@+id/textView9"
+        android:layout_gravity="center_horizontal"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="&lt;--Back"
-        android:id="@+id/button_back_screen8"
-        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="1. Do robots dream?"
+        android:textColor="#0000FF"
+        android:id="@+id/qstn1"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="A. That’s a good question so we asked Jeeves. He says, “When my power is turned off, I do not dream, but when I am in sleep mode, I will sometimes defragment my hard drive. This process is very similar to what humans do when they dream. Last week, I had a wonderful defrag session about a photoshop document full of 1’s and 0’s.” "
+        android:id="@+id/ans1"
+        android:textColor="#000000"
+        android:layout_below="@+id/qstn1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Text"
-        android:maxLines="100"
-        android:scrollbars="vertical"
-        android:textColor="#000000"
-        android:id="@+id/textView16"
-        android:layout_below="@+id/textView9"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="2. Does Jeeves sing and dance?"
+        android:textColor="#0000FF"
+        android:id="@+id/qstn2"
+        android:layout_below="@+id/ans1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="20dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="A. Jeeves has gears and springs that allow him to dance, but he has not yet learned to sing. "
+        android:id="@+id/ans2"
+        android:textColor="#000000"
+        android:layout_below="@+id/qstn2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="3. How old do I have to be to get into PSU?"
+        android:textColor="#0000FF"
+        android:id="@+id/qstn3"
+        android:layout_below="@+id/ans2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="A. Age is not a factor when admitting students to PSU, applicants are evaluated on intelligence and knowledge. So far, the youngest student entered PSU at age 12 and then entered the PhD program at age 16."
+            android:id="@+id/ans3"
+            android:textColor="#000000"
+            android:layout_below="@+id/qstn3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="4. What is Jeeves made of?"
+            android:textColor="#0000FF"
+            android:id="@+id/qstn4"
+            android:layout_below="@+id/ans3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="A. Aluminum, steel, copper, plastic, wood, glue, cloth and lots of love from PSU students. "
+            android:id="@+id/ans4"
+            android:textColor="#000000"
+            android:layout_below="@+id/qstn4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="5. Where’s the restroom?"
+            android:textColor="#0000FF"
+            android:id="@+id/qstn5"
+            android:layout_below="@+id/ans4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="A. Unfortunately, that’s one of the things Jeeves doesn’t know about yet, but there are restrooms on every floor. "
+            android:id="@+id/ans5"
+            android:textColor="#000000"
+            android:layout_below="@+id/qstn5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="6. What is the history of Jeeves?"
+            android:textColor="#0000FF"
+            android:id="@+id/qstn6"
+            android:layout_below="@+id/ans5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="A. The name originated from a fictional character in a series of humorous short stories and novels by P. G. Wodehouse (1881–1975). Created in 1915, Jeeves is a highly competent personal valet to a wealthy young Londoner. After being written about by Wodehouse for 59 years, the name Jeeves has been adopted by many similar characters to the point of the word “jeeves” becoming a generic term in many dictionaries to refer to a valet or butler of a wealthy employer. The Jeeves robot here at PSU is an
+ongoing project of robotics students in the Maseeh College of Engineering and Computer Science. "
+            android:id="@+id/ans6"
+            android:textColor="#000000"
+            android:layout_below="@+id/qstn6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back_button_FAQs_screen"
+            android:background="#778899"
+            android:layout_below="@+id/ans6"
+            android:layout_marginTop="20dp"
+            android:text="&lt;--Back "
+            android:layout_alignParentLeft="true"/>
+    </RelativeLayout>
+</ScrollView>
 </RelativeLayout>

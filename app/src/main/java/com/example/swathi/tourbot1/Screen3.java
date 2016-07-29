@@ -31,7 +31,7 @@ public class Screen3 extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
 
-                Intent intent = new Intent(context, Screen2.class);
+                Intent intent = new Intent(context, NewScreen2.class);
                 startActivity(intent);
 
             }

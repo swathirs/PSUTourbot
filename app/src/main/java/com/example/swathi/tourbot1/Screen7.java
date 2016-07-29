@@ -11,7 +11,7 @@ import android.widget.Button;
 
 
 public class Screen7 extends AppCompatActivity {
-    Button end_tour_btn, pause_btn, chng_destn_btn, srch_website_btn;
+    Button end_tour_btn, pause_btn, chng_destn_btn, srch_website_btn, back_btn, ask_qstn;
     MediaPlayer mp;
     int paused;
 
@@ -31,6 +31,8 @@ public class Screen7 extends AppCompatActivity {
         //pause_btn = (Button) findViewById(R.id.button_pause_stdnt_srvcs);
         chng_destn_btn = (Button) findViewById(R.id.button_chng_destn_stdnt_srvcs);
         srch_website_btn = (Button) findViewById(R.id.button_srch_web_stdnt_srvcs);
+        back_btn= (Button) findViewById(R.id.button_back_student_services);
+        ask_qstn= (Button) findViewById(R.id.button_ask_qstn_student_services);
 
 
         end_tour_btn.setOnClickListener(new View.OnClickListener() {
@@ -70,6 +72,28 @@ public class Screen7 extends AppCompatActivity {
             public void onClick(View arg0) {
 
                 Intent intent = new Intent(context, Screen4.class);
+                startActivity(intent);
+
+            }
+
+        });
+        back_btn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+
+                Intent intent = new Intent(context, Screen4.class);
+                startActivity(intent);
+
+            }
+
+        });
+        ask_qstn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+
+                Intent intent = new Intent(context, Screen8.class);
                 startActivity(intent);
 
             }

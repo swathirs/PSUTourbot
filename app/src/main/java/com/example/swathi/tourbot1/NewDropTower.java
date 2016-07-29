@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class NewDropTower extends AppCompatActivity {
-    Button pause_btn, end_tour_btn, chng_destn_btn, srch_website_btn;
+    Button pause_btn, end_tour_btn, chng_destn_btn, srch_website_btn, back_btn, ask_qstn;
     int paused;
 
     MediaPlayer mp;
@@ -29,6 +29,8 @@ public class NewDropTower extends AppCompatActivity {
         end_tour_btn= (Button) findViewById(R.id.button_end_tour_drop_tower);
         chng_destn_btn = (Button)findViewById(R.id.button_chng_destn_drop_tower);
         srch_website_btn = (Button)findViewById(R.id.button_srch_web_drop_tower);
+        back_btn= (Button)findViewById(R.id.button_back_new_drop_tower);
+        ask_qstn= (Button)findViewById(R.id.button_ask_qstns_new_drop_tower);
 
 
 
@@ -65,6 +67,29 @@ public class NewDropTower extends AppCompatActivity {
             }
 
         });
+        back_btn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+
+                Intent intent = new Intent(context, Screen4.class);
+                startActivity(intent);
+
+            }
+
+        });
+        ask_qstn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+
+                Intent intent = new Intent(context, Screen8.class);
+                startActivity(intent);
+
+            }
+
+        });
+
 
     }
 

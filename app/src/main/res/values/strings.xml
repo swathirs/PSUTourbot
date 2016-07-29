@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TourBot1</string>
+    <string name="app_name">PSU TourBot</string>
     <string name="drop_tower_5th_floor">Drop Tower(5th floor)</string>
     <string name="rocket_lab_basement_0_min">Rocket Lab(Basement) 0 min</string>
     <string name="robot_theatre_basement_0_min">Robot Theatre(Basement) 0 min</string>

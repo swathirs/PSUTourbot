@@ -24,7 +24,7 @@ public class Screen2 extends AppCompatActivity {
 
         final Context context = this;
 
-        button_tour= (Button) findViewById(R.id.button_take_tour);
+        button_tour= (Button) findViewById(R.id.button_take_tour_new_screen2);
         button_ask_question = (Button)findViewById(R.id.button_ask_qstn);
         back_btn = (Button)findViewById(R.id.button_back_ask_qstns_id);
 
@@ -67,7 +67,7 @@ public class Screen2 extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
 
-                Intent intent = new Intent(context, StartScreen.class);
+                Intent intent = new Intent(context, NewStartScreen.class);
                 startActivity(intent);
 
             }

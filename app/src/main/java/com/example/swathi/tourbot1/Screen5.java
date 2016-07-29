@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class Screen5 extends AppCompatActivity {
-    Button pause_btn, end_tour_btn, chng_destn_btn, srch_website_btn;
+    Button pause_btn, end_tour_btn, chng_destn_btn, srch_website_btn, back_btn, ask_qstn;
     int paused;
 
     MediaPlayer mp;
@@ -27,8 +27,10 @@ public class Screen5 extends AppCompatActivity {
 
         //pause_btn= (Button) findViewById(R.id.button_pause_data_center);
         end_tour_btn= (Button) findViewById(R.id.button_end_tour_screen5);
+        back_btn= (Button) findViewById(R.id.button_back_data_center);
         chng_destn_btn = (Button)findViewById(R.id.button_chng_destn_data_center);
         srch_website_btn = (Button)findViewById(R.id.button_srch_web_data_center);
+        ask_qstn = (Button)findViewById(R.id.button_ask_qstns_data_center);
 
 
         end_tour_btn.setOnClickListener(new View.OnClickListener() {
@@ -59,6 +61,28 @@ public class Screen5 extends AppCompatActivity {
             public void onClick(View arg0) {
 
                 Intent intent = new Intent(context, Screen4.class);
+                startActivity(intent);
+
+            }
+
+        });
+        back_btn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+
+                Intent intent = new Intent(context, Screen4.class);
+                startActivity(intent);
+
+            }
+
+        });
+        ask_qstn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+
+                Intent intent = new Intent(context, Screen8.class);
                 startActivity(intent);
 
             }

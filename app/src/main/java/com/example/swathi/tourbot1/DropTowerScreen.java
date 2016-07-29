@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class DropTowerScreen extends AppCompatActivity {
-    Button pause_btn, end_tour_btn, chng_destn_btn, srch_website_btn;
+    Button pause_btn, end_tour_btn, chng_destn_btn, srch_website_btn, back_btn;
     MediaPlayer mp;
     int paused;
 
@@ -29,6 +29,7 @@ public class DropTowerScreen extends AppCompatActivity {
         end_tour_btn= (Button) findViewById(R.id.button_end_tour_drop_twr_screen);
         chng_destn_btn= (Button) findViewById(R.id.button_chng_destn_drp_twr_rsm_screen);
         srch_website_btn= (Button) findViewById(R.id.button_srch_web_drp_twr);
+        //back_btn= (Button)findViewById(R.id.button_back_drop_tower);
 
         /*pause_btn.setOnClickListener(new View.OnClickListener() {
 
@@ -64,6 +65,18 @@ public class DropTowerScreen extends AppCompatActivity {
 
         });
         chng_destn_btn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+
+                Intent intent = new Intent(context, Screen4.class);
+                startActivity(intent);
+
+            }
+
+        });
+
+        back_btn.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
