@@ -42,7 +42,7 @@ public class Screen3 extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
 
-                Intent intent = new Intent(context, Screen4.class);
+                Intent intent = new Intent(context, NewDestinationScreen.class);
                 if(mp==null)
                 {
                     mp = MediaPlayer.create(context, R.raw.destination);

@@ -71,7 +71,7 @@ public class Screen5 extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
 
-                Intent intent = new Intent(context, Screen4.class);
+                Intent intent = new Intent(context, NewDestinationScreen.class);
                 startActivity(intent);
 
             }

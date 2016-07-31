@@ -27,7 +27,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NewScreen2"></activity>
+        <activity android:name=".NewScreen2" />
+        <activity android:name=".NewDestinationScreen"></activity>
     </application>
 
 </manifest>
