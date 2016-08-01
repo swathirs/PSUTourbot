@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="DATA CENTER"
-        android:textSize="25dp"
+        android:textSize="40dp"
         android:textStyle="bold"
         android:id="@+id/textView7"
         android:layout_below="@+id/textView6"
@@ -41,9 +41,10 @@
         android:layout_alignParentEnd="true" />
 
     <Button
-        android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
         android:text="Play"
+        android:textSize="30dp"
         android:textStyle="bold"
         android:background="#008000"
         android:onClick="play_func"
@@ -51,12 +52,13 @@
         android:layout_below="@+id/textView7"
         android:layout_toLeftOf="@+id/button_pause_data_center"
         android:layout_toStartOf="@+id/button_pause_data_center"
-        android:layout_marginTop="52dp" />
+        android:layout_marginTop="90dp" />
 
     <Button
-        android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
         android:text="Pause"
+        android:textSize="30dp"
         android:textStyle="bold"
         android:background="#FFA07A"
         android:onClick="pause_func"
@@ -66,9 +68,10 @@
         android:layout_alignBottom="@+id/button_play_data_center" />
 
     <Button
-        android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
         android:text="Stop"
+        android:textSize="30dp"
         android:textStyle="bold"
         android:background="#FF0000"
         android:onClick="stop_func"
@@ -78,57 +81,37 @@
         android:layout_toEndOf="@+id/button_pause_data_center" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
         android:text="Change Destination"
+        android:textSize="30dp"
+        android:textStyle="bold"
         android:background="#c97f7f"
         android:id="@+id/button_chng_destn_data_center"
-        android:layout_below="@+id/textView24"
-        android:layout_alignLeft="@+id/textView24"
-        android:layout_alignStart="@+id/textView24"
-        android:layout_marginTop="22dp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Search Website"
-        android:background="#1E90FF"
-        android:id="@+id/button_srch_web_data_center"
-        android:layout_below="@+id/button_chng_destn_data_center"
-        android:layout_marginTop="10dp"
-        android:layout_alignRight="@+id/textView6"
-        android:layout_alignEnd="@+id/textView6"
-        android:layout_alignLeft="@+id/button_chng_destn_data_center"
-        android:layout_alignStart="@+id/button_chng_destn_data_center" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="If you wish to go elsewhere while Jeeves is still talking,"
-        android:id="@+id/textView22"
+        android:layout_marginTop="80dp"
         android:layout_below="@+id/button_pause_data_center"
         android:layout_centerHorizontal="true" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="please pause or stop him before clicking a button."
-        android:id="@+id/textView23"
-        android:layout_below="@+id/textView22"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="(Jeeves likes to be polite) "
-        android:id="@+id/textView24"
-        android:layout_below="@+id/textView23"
-        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Search Website"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#1E90FF"
+        android:id="@+id/button_srch_web_data_center"
+        android:layout_below="@+id/button_chng_destn_data_center"
+        android:layout_marginTop="60dp"
+        android:layout_alignLeft="@+id/button_chng_destn_data_center"
+        android:layout_alignStart="@+id/button_chng_destn_data_center"
+        android:layout_alignRight="@+id/button_chng_destn_data_center"
+        android:layout_alignEnd="@+id/button_chng_destn_data_center" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="&lt;--Back"
+        android:onClick="onPause"
         android:background="#778899"
         android:id="@+id/button_back_data_center"
         android:layout_alignParentBottom="true"
@@ -136,16 +119,18 @@
         android:layout_alignParentStart="true" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
         android:text="Ask Questions"
+        android:textSize="30dp"
+        android:textStyle="bold"
         android:background="#FFFF66"
         android:id="@+id/button_ask_qstns_data_center"
         android:layout_below="@+id/button_srch_web_data_center"
-        android:layout_marginTop="10dp"
-        android:layout_alignRight="@+id/textView6"
-        android:layout_alignEnd="@+id/textView6"
+        android:layout_marginTop="60dp"
         android:layout_alignLeft="@+id/button_srch_web_data_center"
-        android:layout_alignStart="@+id/button_srch_web_data_center" />
+        android:layout_alignStart="@+id/button_srch_web_data_center"
+        android:layout_alignRight="@+id/button_srch_web_data_center"
+        android:layout_alignEnd="@+id/button_srch_web_data_center" />
 
 </RelativeLayout>

@@ -61,7 +61,7 @@ public class NewDropTower extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
 
-                Intent intent = new Intent(context, Screen4.class);
+                Intent intent = new Intent(context, NewDestinationScreen.class);
                 startActivity(intent);
 
             }
@@ -72,8 +72,9 @@ public class NewDropTower extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
 
-                Intent intent = new Intent(context, NewDestinationScreen.class);
-                startActivity(intent);
+                //Intent intent = new Intent(context, NewDestinationScreen.class);
+               // startActivity(intent);
+                finish();
 
             }
 
@@ -116,5 +117,16 @@ public class NewDropTower extends AppCompatActivity {
     {
         mp.pause();
         paused=mp.getCurrentPosition();
+    }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        if (mp != null) {
+            mp.pause();
+            if (isFinishing()) {
+                mp.stop();
+                mp.release();
+            }
+        }
     }
 }

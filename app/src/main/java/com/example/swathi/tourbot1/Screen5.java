@@ -60,7 +60,7 @@ public class Screen5 extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
 
-                Intent intent = new Intent(context, Screen4.class);
+                Intent intent = new Intent(context, NewDestinationScreen.class);
                 startActivity(intent);
 
             }
@@ -71,8 +71,9 @@ public class Screen5 extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
 
-                Intent intent = new Intent(context, NewDestinationScreen.class);
-                startActivity(intent);
+               // Intent intent = new Intent(context, NewDestinationScreen.class);
+                //startActivity(intent);
+                finish();
 
             }
 
@@ -104,6 +105,17 @@ public class Screen5 extends AppCompatActivity {
             mp.start();
         }
 
+    }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        if (mp != null) {
+            mp.pause();
+            if (isFinishing()) {
+                mp.stop();
+                mp.release();
+            }
+        }
     }
     public  void stop_func(View view)
     {

@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Back to STUDENT SERVICES"
-        android:textSize="25dp"
+        android:textSize="40dp"
         android:textStyle="bold"
         android:id="@+id/textView_back_to_stdnt_svcs"
         android:layout_below="@+id/textView15"
@@ -41,9 +41,10 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
         android:text="Play"
+        android:textSize="30dp"
         android:textStyle="bold"
         android:onClick="play_func"
         android:background="#008000"
@@ -51,12 +52,13 @@
         android:layout_below="@+id/textView_back_to_stdnt_svcs"
         android:layout_toLeftOf="@+id/button_pause_stdnt_srvcs"
         android:layout_toStartOf="@+id/button_pause_stdnt_srvcs"
-        android:layout_marginTop="60dp" />
+        android:layout_marginTop="90dp" />
 
     <Button
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
         android:text="Pause"
+        android:textSize="30dp"
         android:textStyle="bold"
         android:background="#FFA07A"
         android:onClick="pause_func"
@@ -65,9 +67,10 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
         android:text="Stop"
+        android:textSize="30dp"
         android:textStyle="bold"
         android:background="#FF0000"
         android:onClick="stop_func"
@@ -77,57 +80,37 @@
         android:layout_toEndOf="@+id/button_pause_stdnt_srvcs" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
         android:text="Change Destination"
+        android:textSize="30dp"
+        android:textStyle="bold"
         android:background="#c97f7f"
         android:id="@+id/button_chng_destn_stdnt_srvcs"
-        android:layout_below="@+id/textView21"
-        android:layout_alignLeft="@+id/textView21"
-        android:layout_alignStart="@+id/textView21"
-        android:layout_marginTop="22dp" />
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/button_play_stdnt_srvcs"
+        android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
         android:text="Search Website"
+        android:textSize="30dp"
+        android:textStyle="bold"
         android:background="#1E90FF"
         android:id="@+id/button_srch_web_stdnt_srvcs"
         android:layout_below="@+id/button_chng_destn_stdnt_srvcs"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="60dp"
         android:layout_alignRight="@+id/button_chng_destn_stdnt_srvcs"
         android:layout_alignEnd="@+id/button_chng_destn_stdnt_srvcs"
         android:layout_alignLeft="@+id/button_chng_destn_stdnt_srvcs"
         android:layout_alignStart="@+id/button_chng_destn_stdnt_srvcs" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="If you wish to go elsewhere while Jeeves is still talking,"
-        android:id="@+id/textView19"
-        android:layout_below="@+id/button_play_stdnt_srvcs"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="please pause or stop him before clicking a button."
-        android:id="@+id/textView20"
-        android:layout_below="@+id/textView19"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="(Jeeves likes to be polite)"
-        android:id="@+id/textView21"
-        android:layout_below="@+id/textView20"
-        android:layout_centerHorizontal="true" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="&lt;--Back"
+        android:onClick="onPause"
         android:background="#778899"
         android:id="@+id/button_back_student_services"
         android:layout_alignTop="@+id/button_end_tour_screen7"
@@ -135,13 +118,15 @@
         android:layout_alignParentStart="true" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
         android:text="Ask Questions"
+        android:textSize="30dp"
+        android:textStyle="bold"
         android:background="#FFFF66"
         android:id="@+id/button_ask_qstn_student_services"
         android:layout_below="@+id/button_srch_web_stdnt_srvcs"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="60dp"
         android:layout_alignRight="@+id/button_srch_web_stdnt_srvcs"
         android:layout_alignEnd="@+id/button_srch_web_stdnt_srvcs"
         android:layout_alignLeft="@+id/button_srch_web_stdnt_srvcs"

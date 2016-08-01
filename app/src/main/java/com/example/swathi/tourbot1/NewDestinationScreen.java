@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class NewDestinationScreen extends AppCompatActivity {
-    Button end_tour, back_btn, drop_tower_btn, data_center_btn, back_2_stdnt_services_btn;
+    Button end_tour, back_btn, drop_tower_btn, data_center_btn, back_2_stdnt_services_btn, robot_theatre_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +27,8 @@ public class NewDestinationScreen extends AppCompatActivity {
         drop_tower_btn= (Button) findViewById(R.id.button_drop_tower_new_destn_id);
         back_2_stdnt_services_btn= (Button) findViewById(R.id.button_student_services_new_destination_id);
 
+        robot_theatre_btn= (Button) findViewById(R.id.button_robot_theatre_new_destn_id);
+
         end_tour.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -43,8 +45,9 @@ public class NewDestinationScreen extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
 
-                Intent intent = new Intent(context, Screen3.class);
-                startActivity(intent);
+                //Intent intent = new Intent(context, Screen3.class);
+                //startActivity(intent);
+                finish();
 
             }
 
@@ -81,6 +84,18 @@ public class NewDestinationScreen extends AppCompatActivity {
             public void onClick(View arg0) {
 
                 Intent intent = new Intent(context, NewDropTower.class);
+                startActivity(intent);
+
+            }
+
+        });
+
+        robot_theatre_btn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+
+                Intent intent = new Intent(context, RobotTheatreScreen.class);
                 startActivity(intent);
 
             }

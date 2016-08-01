@@ -12,13 +12,9 @@
         <activity android:name=".Screen3" />
         <activity android:name=".Screen4" />
         <activity android:name=".Screen5" />
-        <activity android:name=".Screen6" />
         <activity android:name=".Screen7" />
         <activity android:name=".Screen8" />
         <activity android:name=".Screen9" />
-        <activity android:name=".DropTowerScreen" />
-        <activity android:name=".DropTower_ResumeScreen" />
-        <activity android:name=".Student_Srvcs_Resume_Screen" />
         <activity android:name=".NewDropTower" />
         <activity android:name=".NewStartScreen">
             <intent-filter>
@@ -28,7 +24,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".NewScreen2" />
-        <activity android:name=".NewDestinationScreen"></activity>
+        <activity android:name=".NewDestinationScreen" />
+        <activity android:name=".RobotTheatreScreen"></activity>
     </application>
 
 </manifest>

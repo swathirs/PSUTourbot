@@ -10,13 +10,14 @@
     tools:context="com.example.swathi.tourbot1.NewDestinationScreen">
 
 
+
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="450dp"
-        android:layout_alignParentTop="true"
+        android:layout_height="600dp"
         android:background="@drawable/eb_map"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
         android:id="@+id/tableRow4"></TableRow>
 
     <LinearLayout
@@ -24,22 +25,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tableRow4"
+        android:layout_marginTop="30dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:id="@+id/linearLayout">
 
         <Button
             android:layout_width="400dp"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
             android:text="DropTower                                                                                                     (5th Floor - 4 min) "
+
+            android:textStyle="bold"
+            android:textSize="20dp"
             android:background="#FF9966"
             android:id="@+id/button_drop_tower_new_destn_id" />
 
         <Button
             android:layout_width="400dp"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
             android:text="Rocket Lab                                                                                                 (Basement - 0 min)"
+            android:textSize="20dp"
             android:background="#D8BFD8"
+            android:textStyle="bold"
             android:id="@+id/button_rocket_lab_new_destn_screen_id" />
     </LinearLayout>
 
@@ -48,20 +55,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="30dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:id="@+id/linearLayout2">
 
         <Button
             android:layout_width="400dp"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
+            android:textStyle="bold"
             android:text="Robot Theatre                                                                                              (Basement - 0 min)"
+            android:textSize="20dp"
             android:background="#FF6666"
             android:id="@+id/button_robot_theatre_new_destn_id" />
 
         <Button
             android:layout_width="400dp"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
             android:text="Data Center                                                                                                (Basement - 8min )"
             android:background="#0066FF"
 
@@ -73,20 +85,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/linearLayout2"
+        android:layout_marginTop="30dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:id="@+id/linearLayout3">
 
         <Button
             android:layout_width="400dp"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
             android:text="Water Reclamation                                                                                          (2nd Floor - 0 min)"
             android:background="#87CEFA"
             android:id="@+id/button_water_reclamation_new_destn_id" />
 
         <Button
             android:layout_width="400dp"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
             android:text="Student Services                                                                                          (1st Floor - 2 min)"
             android:background="#CC6699"
             android:id="@+id/button_student_services_new_destination_id" />
@@ -111,6 +128,18 @@
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/linearLayout3"
         android:layout_alignEnd="@+id/linearLayout3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Choose a destination:"
+        android:id="@+id/textView11"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 
 </RelativeLayout>

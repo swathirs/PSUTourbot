@@ -67,8 +67,9 @@ public class Screen2 extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
 
-                Intent intent = new Intent(context, NewStartScreen.class);
-                startActivity(intent);
+                //Intent intent = new Intent(context, NewStartScreen.class);
+               // startActivity(intent);
+                finish();
 
             }
 
