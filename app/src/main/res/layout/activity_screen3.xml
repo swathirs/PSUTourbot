@@ -100,4 +100,12 @@
         android:layout_alignTop="@+id/button_back_screen3"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/psu_logo1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

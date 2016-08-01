@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.swathi.tourbot1.WaterReclamationScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Next destination"
+        android:id="@+id/textView20"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="WATER RECLAMATION"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:id="@+id/textView21"
+        android:layout_below="@+id/textView20"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="We have an intriguing water reclamation system"
+        android:id="@+id/textView22"
+        android:textSize="30dp"
+        android:layout_below="@+id/textView21"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Change Destination"
+        android:textSize="30dp"
+        android:background="#c97f7f"
+        android:textStyle="bold"
+        android:id="@+id/button_change_destn_water_reclamation"
+        android:layout_below="@+id/textView31"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Search Website"
+        android:textSize="30dp"
+        android:background="#1E90FF"
+        android:textStyle="bold"
+        android:id="@+id/button_search_web_water_reclamation"
+        android:layout_below="@+id/button_change_destn_water_reclamation"
+        android:layout_marginTop="60dp"
+        android:layout_alignLeft="@+id/button_change_destn_water_reclamation"
+        android:layout_alignStart="@+id/button_change_destn_water_reclamation"
+        android:layout_alignRight="@+id/button_change_destn_water_reclamation"
+        android:layout_alignEnd="@+id/button_change_destn_water_reclamation" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Ask Questions"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#FFFF66"
+        android:layout_marginTop="60dp"
+        android:id="@+id/button_ask_qstn_water_reclamation"
+        android:layout_below="@+id/button_search_web_water_reclamation"
+        android:layout_alignRight="@+id/button_search_web_water_reclamation"
+        android:layout_alignEnd="@+id/button_search_web_water_reclamation"
+        android:layout_alignLeft="@+id/button_search_web_water_reclamation"
+        android:layout_alignStart="@+id/button_search_web_water_reclamation" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&lt;--Back"
+        android:background="#778899"
+        android:id="@+id/button_back_btn_water_reclamation"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End tour"
+        android:background="#BA55D3"
+        android:id="@+id/button_end_tour_water_reclamation"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView22"
+        android:layout_alignEnd="@+id/textView22" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="and I hope to have more to tell you about it"
+        android:textSize="30dp"
+        android:id="@+id/textView30"
+        android:layout_below="@+id/textView22"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="in a future version of myself."
+        android:textSize="30dp"
+        android:id="@+id/textView31"
+        android:layout_below="@+id/textView30"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/psu_logo1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

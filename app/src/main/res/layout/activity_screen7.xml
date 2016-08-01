@@ -35,7 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Next Destination"
+        android:text="Next destination"
         android:id="@+id/textView15"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -131,6 +131,14 @@
         android:layout_alignEnd="@+id/button_srch_web_stdnt_srvcs"
         android:layout_alignLeft="@+id/button_srch_web_stdnt_srvcs"
         android:layout_alignStart="@+id/button_srch_web_stdnt_srvcs" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/psu_logo1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

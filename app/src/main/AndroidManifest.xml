@@ -8,7 +8,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Screen2" />
         <activity android:name=".Screen3" />
         <activity android:name=".Screen4" />
         <activity android:name=".Screen5" />
@@ -25,7 +24,9 @@
         </activity>
         <activity android:name=".NewScreen2" />
         <activity android:name=".NewDestinationScreen" />
-        <activity android:name=".RobotTheatreScreen"></activity>
+        <activity android:name=".RobotTheatreScreen" />
+        <activity android:name=".WaterReclamationScreen" />
+        <activity android:name=".RocketLabScreen"></activity>
     </application>
 
 </manifest>

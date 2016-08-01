@@ -193,6 +193,14 @@ ongoing project of robotics students in the Maseeh College of Engineering and Co
             android:layout_marginTop="20dp"
             android:text="&lt;--Back "
             android:layout_alignParentLeft="true"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/psu_logo1"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
     </RelativeLayout>
 </ScrollView>
 </RelativeLayout>

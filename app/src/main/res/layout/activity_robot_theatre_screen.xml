@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Next Destination"
+        android:text="Next destination"
         android:id="@+id/textView12"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -34,12 +34,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="The robot theatre is a fun and fascinating place. Stay tuned for exciting adventures. I hope to audition for them someday."
+        android:text="The robot theatre is a fun and fascinating place."
         android:id="@+id/textView19"
         android:textSize="30dp"
         android:layout_below="@+id/textView16"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp" />
 
     <Button
@@ -49,9 +48,9 @@
         android:textSize="30dp"
         android:background="#c97f7f"
         android:textStyle="bold"
+        android:layout_marginTop="60dp"
         android:id="@+id/button_change_destination_robot_theatre"
-        android:layout_marginTop="30dp"
-        android:layout_below="@+id/textView19"
+        android:layout_below="@+id/textView29"
         android:layout_centerHorizontal="true" />
 
     <Button
@@ -62,7 +61,7 @@
         android:background="#1E90FF"
         android:textStyle="bold"
         android:id="@+id/button_search_website_robot_theatre"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="60dp"
         android:layout_below="@+id/button_change_destination_robot_theatre"
         android:layout_alignLeft="@+id/button_change_destination_robot_theatre"
         android:layout_alignStart="@+id/button_change_destination_robot_theatre"
@@ -75,6 +74,7 @@
         android:text="Ask Questions"
         android:textSize="30dp"
         android:textStyle="bold"
+        android:layout_marginTop="60dp"
         android:background="#FFFF66"
         android:id="@+id/button_ask_qstns_robot_theatre"
         android:layout_below="@+id/button_search_website_robot_theatre"
@@ -102,5 +102,33 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Stay tuned for exciting adventures. I hope"
+        android:textSize="30dp"
+        android:id="@+id/textView28"
+        android:layout_below="@+id/textView19"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="to audition for them someday."
+        android:textSize="30dp"
+        android:id="@+id/textView29"
+        android:layout_below="@+id/textView28"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/psu_logo1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

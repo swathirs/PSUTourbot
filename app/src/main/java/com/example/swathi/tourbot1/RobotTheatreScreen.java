@@ -34,7 +34,7 @@ public class RobotTheatreScreen extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
 
-                Intent intent = new Intent(context, Screen9.class);
+                Intent intent = new Intent(context, Screen7.class);
                 startActivity(intent);
             }
 
