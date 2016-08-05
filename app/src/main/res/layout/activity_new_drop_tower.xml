@@ -76,7 +76,7 @@
         android:textStyle="bold"
         android:textSize="30dp"
         android:background="#c97f7f"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="150dp"
         android:id="@+id/button_chng_destn_drop_tower"
         android:layout_alignLeft="@+id/textView13"
         android:layout_alignStart="@+id/textView13"
@@ -140,4 +140,28 @@
         android:src="@drawable/psu_logo1"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Please use the controller above to start and stop my narrative."
+        android:textSize="20dp"
+        android:id="@+id/textViewaa"
+        android:textColor="#0000CD"
+        android:layout_below="@+id/button_pause_drop_tower"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="I can go on and on sometimes, so it’s probably better this way."
+        android:id="@+id/textViewbb"
+        android:textColor="#0000CD"
+        android:textSize="20dp"
+        android:layout_below="@+id/textViewaa"
+        android:layout_centerHorizontal="true" />
+
+
 </RelativeLayout>
