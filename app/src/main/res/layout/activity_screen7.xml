@@ -10,9 +10,9 @@
     tools:context="com.example.swathi.tourbot1.Screen7">
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="End Tour"
+        android:text="Goodbye Jeeves"
         android:id="@+id/button_end_tour_screen7"
         android:layout_alignParentBottom="true"
         android:background="#BA55D3"
@@ -23,13 +23,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Back to STUDENT SERVICES"
+        android:text="STUDENT SERVICES"
         android:textSize="40dp"
         android:textStyle="bold"
         android:id="@+id/textView_back_to_stdnt_svcs"
         android:layout_below="@+id/textView15"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="0dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/textView_back_to_stdnt_svcs"
+        android:id="@+id/text_Jeeves_home_base"
+        android:text="(Jeeve's Home Base)"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -49,7 +60,7 @@
         android:onClick="play_func"
         android:background="#008000"
         android:id="@+id/button_play_stdnt_srvcs"
-        android:layout_below="@+id/textView_back_to_stdnt_svcs"
+        android:layout_below="@+id/text_Jeeves_home_base"
         android:layout_toLeftOf="@+id/button_pause_stdnt_srvcs"
         android:layout_toStartOf="@+id/button_pause_stdnt_srvcs"
         android:layout_marginTop="90dp" />
@@ -60,7 +71,7 @@
         android:text="Pause"
         android:textSize="30dp"
         android:textStyle="bold"
-        android:background="#FFA07A"
+        android:background="#FFFF66"
         android:onClick="pause_func"
         android:id="@+id/button_pause_stdnt_srvcs"
         android:layout_alignTop="@+id/button_play_stdnt_srvcs"
@@ -123,7 +134,7 @@
         android:text="Ask Questions"
         android:textSize="30dp"
         android:textStyle="bold"
-        android:background="#FFFF66"
+        android:background="#FFA07A"
         android:id="@+id/button_ask_qstn_student_services"
         android:layout_below="@+id/button_srch_web_stdnt_srvcs"
         android:layout_marginTop="60dp"

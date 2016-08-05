@@ -91,7 +91,7 @@
         android:textSize="30dp"
         android:textStyle="bold"
         android:layout_marginTop="60dp"
-        android:background="#FFFF66"
+        android:background="#FFA07A"
         android:id="@+id/button_ask_qstns_rocket_lab"
         android:layout_below="@+id/button_srch_web_rocket_lab"
         android:layout_centerHorizontal="true" />

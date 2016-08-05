@@ -75,7 +75,7 @@
         android:textSize="30dp"
         android:textStyle="bold"
         android:layout_marginTop="60dp"
-        android:background="#FFFF66"
+        android:background="#FFA07A"
         android:id="@+id/button_ask_qstns_robot_theatre"
         android:layout_below="@+id/button_search_website_robot_theatre"
         android:layout_alignLeft="@+id/button_search_website_robot_theatre"
